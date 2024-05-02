@@ -2,7 +2,11 @@
 # where n > 1.
 
 # Solution
-# PSEUDOCODE
+# PSEUDOCODE:
+# Pseudocode is a plain language description of the steps or logic of a computer program, designed to be easily
+# understood by humans. It is often used during the initial stages of program design or algorithm development before
+# translating the logic into a specific programming language like Python, Java, C++, etc.
+
 
 # function isPrime(number n)
 #     for i from 2 to square root of n rounded down inclusive
@@ -10,10 +14,6 @@
 #             return false
 #
 #     return true
-
-# Pseudocode is a plain language description of the steps or logic of a computer program, designed to be easily
-# understood by humans. It is often used during the initial stages of program design or algorithm development before
-# translating the logic into a specific programming language like Python, Java, C++, etc.
 
 # Python implementations of the function based on the provided pseudocode:
 
