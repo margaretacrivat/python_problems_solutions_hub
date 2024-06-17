@@ -1,4 +1,4 @@
-# Please create a function that can check if a given number n is prime or not,
+# Task: Please create a function that can check if a given number n is prime or not,
 # where n > 1.
 
 # Solution
