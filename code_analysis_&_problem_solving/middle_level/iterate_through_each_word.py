@@ -15,18 +15,18 @@
 class Text:
     def __init__(self, text):
         self.text = text
-        self.cuvinte = self.text.split(' ')
+        self.words = self.text.split(' ')
         self.index = 0
 
     def __iter__(self):
         return self
 
     def __next__(self):
-        if self.index >= len(self.cuvinte):
+        if self.index >= len(self.words):
             raise StopIteration
         ind = self.index
         self.index += 1
-        return self.cuvinte[ind]
+        return self.words[ind]
 
 
 txt = Text('We learn python every day!')

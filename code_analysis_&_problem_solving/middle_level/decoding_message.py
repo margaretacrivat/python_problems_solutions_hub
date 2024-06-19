@@ -1,4 +1,4 @@
-# Decoding a Message from a Text File
+# Task: Decoding a Message from a Text File
 # In this exercise, you will develop a function named decode(message_file). This function should read an encoded
 # message from a .txt file and return its decoded version as a string.
 
